@@ -4,14 +4,6 @@ import { supabase } from "../lib/supabase";
 
 
 
-
-function Clientes() {
-  alert("ENTRE A CLIENTES");
-
-  const [clientes, setClientes] = useState([]);
-
-
-
 function Clientes() {
   const [clientes, setClientes] = useState<any[]>([]);
 
@@ -71,5 +63,5 @@ function Clientes() {
       ))}
     </div>
   );
-
+}
 export default Clientes;
